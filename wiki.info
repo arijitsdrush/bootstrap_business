@@ -1,0 +1,23 @@
+
+; Theme Info -----------------------------------------------------------------
+name = Wiki
+description = Minimal theme which can be used for wiki like pages
+version = 7.1
+core = 7.x
+
+; Stylesheets ----------------------------------------------------------------
+stylesheets[all][] = css/styles.css
+
+; Scripts --------------------------------------------------------------------
+scripts[] = js/html5.js
+
+; Regions --------------------------------------------------------------------
+regions[header] = Header
+regions[help] = Help
+regions[site_left_intro] = Site Intro
+regions[site_right_quote] = Site quote
+regions[content] = Content
+regions[page_article_right] = Page articale right
+regions[footer_menu] = Footer menu
+regions[copyright] = Copyright
+
